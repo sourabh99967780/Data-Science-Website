@@ -1,0 +1,132 @@
+.upper_section{
+	font-size: 48px;
+}
+
+.middle_section{
+    font-size: 48px;
+}
+
+.lower_section{
+    font-size: 48px;
+}
+
+.apply_to_all{
+    text-align: center;
+	height: 100%;
+	width: 100%;
+	border-spacing: 5px;
+}
+
+td{
+	height: 239px;
+}
+
+#data{
+	font-weight: bold;
+	font-size: 90px;
+	color: white;
+	padding: 20px;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+body{
+	background-image: url("machine.jpeg");
+	align-content: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+#explore{
+	border-radius: 20px;
+	text-align: center;
+	height: 40px;
+	width: 150px;
+	background-color: #1a7b93;
+	color: white;
+	opacity: 0.6;
+	transition: 0.3s;
+	font-family: 'Caveat', cursive;
+	font-weight: bold;
+	font-size: 20px;
+	vertical-align: center;
+}
+
+#explore:hover{
+	background-color: #1eeae7;
+	color: black;
+	opacity: 1;
+}
+
+#science{
+	font-size: 48px;
+	color: white;
+	font-family: 'Staatliches', cursive;
+}
+
+#python{
+	background-image: url("python.jpg");
+}
+
+.dv{
+	width: 100%;
+	height: 100%;
+	font-size: 40px;
+	background-color: white;
+	opacity: 0.7;
+	border-radius: 20px;
+	transition: 0.5s;
+	font-family: 'Righteous', cursive;
+}
+
+.dv:hover{
+	background-color: white;
+	opacity: 0.9;
+	border-radius: 20px;
+	background-image: url(https://cdn-images-1.medium.com/max/1600/0*XxL6kl8FNt7y-G6o.);
+	vertical-align: center;
+}
+
+.upper_button{
+	width: 100%;
+	height: 100%;
+	font-size: 40px;
+	color: white;
+	background-color: black;
+	opacity: 0.6;
+	border-radius: 20px;
+	transition: 0.5s;
+	font-family: 'Righteous', cursive;
+}
+
+.upper_button:hover{
+	background-color: black;
+	opacity: 0.9;
+	border-radius: 20px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png);
+}
+
+.lower_button{
+	width: 100%;
+	height: 100%;
+	font-size: 40px;
+	background-color: black;
+	color: white;
+	opacity: 0.6;
+	border-radius: 20px;
+	transition: 0.5s;
+	font-family: 'Righteous', cursive;
+}
+
+.lower_button:hover{
+	background-color: black;
+	opacity: 0.9;
+	border-radius: 20px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d5/Hey_Machine_Learning_Logo.png);
+}
+
+footer{
+	text-align: center;
+	font-size: 24px;
+	color: white;
+}

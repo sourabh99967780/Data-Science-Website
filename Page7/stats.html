@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Web Scraping</title>
+<link href="stats.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1>Statistics - An Important part of Data Science</h1>
+
+<h2>Statistics can be a powerful tool when performing the art of Data Science (DS). From a high-level view, statistics is the use of mathematics to perform technical analysis of data. A basic visualisation such as a bar chart might give you some high-level information, but with statistics we get to operate on the data in a much more information-driven and targeted way. The math involved helps us form concrete conclusions about our data rather than just guesstimating.</h2>
+
+	<p><a class="libraries" href="https://towardsdatascience.com/the-5-basic-statistics-concepts-data-scientists-need-to-know-2c96740377ae">Statistical Features</a></p>
+	<p>Statistical features is probably the most used statistics concept in data science. It’s often the first stats technique you would apply when exploring a dataset and includes things like bias, variance, mean, median, percentiles, and many others. It’s all fairly easy to understand and implement in code! Check out the graphic below for an illustration.</p>
+	
+	<center><img class="image" style="border-radius: 10px;" src="https://cdn-images-1.medium.com/max/1000/1*8noddM5HrclQmqUU9U_dUw.gif"></center>
+	
+	<p>The line in the middle is the median value of the data. <b>Median is used over the mean since it is more robust to outlier values.</b> The first quartile is essentially the 25th percentile; i.e 25% of the points in the data fall below that value. The third quartile is the 75th percentile; i.e 75% of the points in the data fall below that value. The min and max values represent the upper and lower ends of our data range.</p>
+	
+	<p>A box plot perfectly illustrates what we can do with basic statistical features:</p>
+	<center><ul>
+		<li>When the box plot is short it implies that much of your data points are similar, since there are many values in a small range.</li>
+		<li>When the box plot is tall it implies that much of your data points are quite different, since the values are spread over a wide range</li>
+		<li>If the median value is closer to the bottom then we know that most of the data has lower values. If the median value is closer to the top then we know that most of the data has higher values. Basically, if the median line is not in the middle of the box then it is an indication of skewed data.</li>
+		<li>Are the whiskers very long? That means your data has a high standard deviation and variance i.e the values are spread out and highly varying. If you have long whiskers on one side of the box but not the other, then your data may be highly varying only in one direction.</li>
+	</ul>
+	</center>
+</body>
+</html>

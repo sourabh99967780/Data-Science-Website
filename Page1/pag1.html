@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Python Fundamentals</title>
+<link href="pag1.css" rel="stylesheet" type="text/css">
+<link rel="icon" type="image/png" href="icon.png" />
+<style>
+	@import url('https://fonts.googleapis.com/css?family=Francois+One')
+</style>
+</head>
+
+<body>
+	<h1>Getting Started with Python</h1>
+	<div class="topnav">
+		<a class="active" href="#intro">Introduction</a>
+		<a href="#download">Download Python</a>
+		<a href="#download-conda">Download Anaconda Framework</a>
+		<a href="#string">String</a>
+		<a href="#Tuple">Tuple</a>
+		<a href="#list">List</a>
+	</div>
+		<div class="intro-content">
+		<a name="intro"></a>
+		<h3>What is Python?</h3>
+		<div>Python is a popular programming language. It was created in 1991 by Guido van Rossum.</div>
+		<div>It is used for:</div>
+			<div>
+				<ul>
+					<li>web-development(server-side)</li>
+					<li>software development</li>
+					<li>mathematic</li>
+					<li>system scripting</li>
+				</ul>
+			</div>
+		<h3>What can Python do?</h3>
+		<div>
+			<ul>
+				<li>Python can be used on a server to create web applications.</li>
+				<li>Python can be used alongside software to create workflows.</li>
+				<li>Python can connect to database systems. It can also read and modify files.</li>
+				<li>Python can be used to handle big data and perform complex mathematics.</li>
+				<li>Python can be used for rapid prototyping, or for production-ready software development.</li>
+			</ul>
+			<h3>Why Python?</h3>
+			<ul>
+				<li>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).</li>
+				<li>Python has a simple syntax similar to the English language.</li>
+				<li>Python has syntax that allows developers to write programs with fewer lines than some other programming languages.</li>
+				<li>Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.</li>
+				<li>Python can be treated in a procedural way, an object-orientated way or a functional way.</li>
+			</ul>
+		</div>
+		</div>
+	<a name="download"></a>
+	<div><img src="https://cdn-images-1.medium.com/max/1600/1*7EUX9QIjq2x1JyFKcjhXsA.png"/>
+		<span>
+			<a href="https://www.python.org/downloads/"><button class="bt1">Download Python 3.7.0</button></a>
+		</span>
+	</div><br><br>
+	<a name="download-conda"></a>
+	<div class="anaconda">
+	<h3>Anaconda Framework</h3>
+	<article>Anaconda is a framework provided by Anaconda cloud INC and consists of various Python Libraries preinstalled and features various IDE's like Jupyter Notebook, Spyder,etc.</article>
+	<h2>Anaconda for Data Scientists</h2>
+	<div>Directly from the platform and without involving DevOps, data scientists can develop and deploy AI and machine learning models rapidly into production. Anaconda provides the tools needed to easily:</div>
+		<div>
+		<ul>
+			<li>Collect data from files, databases, and data lakes</li>
+			<li>Manage environments with Conda (all package dependencies are taken care of at the time of download)</li>
+			<li>Share, collaborate on, and reproduce projects</li>
+			<li>Deploy projects into production with the single click of a button</li>
+		</ul>
+			<a href="https://www.anaconda.com/distribution/"><button class="bt1">Download Anaconda</button></a>
+		</div>
+	</div>
+	<br><br>
+	<a name="string"></a>
+	<div class="string">
+		<h3>Python Strings</h3>
+		<article>
+			In Python, Strings are arrays of bytes representing Unicode characters. However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string.
+		</article>
+		<article>Strings in Python can be created using single quotes or double quotes or even triple quotes.
+
+String in single quotes cannot hold any other single quoted character in it otherwise an error arises because the compiler won’t recognize where to start and end the string. To overcome this error, use of double quotes is preferred, because it helps in creation of Strings with single quotes in them. For strings which contain Double quoted words in them, use of triple quotes is suggested. Along with this, triple quotes also allow the creation of multiline strings.</article>
+		<h2>Syntax</h2>
+		<div class="syntax">a = "Hello World"</div>
+		<h2>String Slicing</h2>
+		<div>String slicing means to clip some part of the string.</div>
+		<div class="syntax">a[0:5] will be "Hello"</div>
+		<div class="syntax">a[0:5:2] will be "Hlo"</div>
+	</div>
+	<img style="border-radius: 10px; margin: 5px;" src="https://pythonspot-9329.kxcdn.com/wp-content/uploads/2016/04/python-string-1.png"/>
+	<a name="Tuple"></a>
+	<div class="tuple">
+		<h3>Tuples</h3>
+		<div>A tuple is a sequence of immutable Python objects. Tuples are sequences, just like lists. The differences between tuples and lists are, the tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets.
+
+Creating a tuple is as simple as putting different comma-separated values. Optionally you can put these comma-separated values between parentheses also.</div>
+		<h2>Creating Tuples</h2>
+		<div class="syntax">
+			<div>a = (1,2,3)</div>
+		</div>
+		<h2>Tuples are immutable</h2>
+	</div>
+	<img style="border-radius: 10px;margin: 5px;" src="https://cdn.techbeamers.com/wp-content/uploads/2018/05/Python-Tuple-Learn-with-Examples.png"/>
+	<a name="list"></a>
+	<div class="list">
+		<h3>Lists</h3>
+		<div>A list is a collection which is ordered and changeable. In Python lists are written with square brackets.Lists are most used data structure offered by Python.</div>
+		<h2>Creating lists</h2>
+		<div class="syntax">
+			<div>a = [1,"abc",5.6]</div>
+		</div>
+	</div>
+	<img style="border-radius: 10px; margin: 5px;" src="https://cdn.techbeamers.com/wp-content/uploads/2018/03/Python-List-A-Beginners-Guide-to-Get-Started-Quickly.png"/>
+	</body>
+</html>
